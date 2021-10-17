@@ -1,0 +1,14 @@
+#masthead.headerShow {
+        
+    transform: translateY(20px);
+}
+
+#masthead {
+       
+    position: fixed;
+    top: -20px;
+    width: 100vw;
+
+    transition : transform 0.8s ease;
+    transform: translateY(-80px); /* adjust this value to the height of your header */
+}
